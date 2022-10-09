@@ -1,0 +1,20 @@
+### Images ###
+# JPEG
+*.jpg
+*.jpeg
+*.jpe
+*.jif
+*.jfif
+*.jfi
+
+# Graphics Interchange Format
+*.gif
+
+# Web P
+*.webp
+
+# Portable Network Graphics
+*.png
+
+# Photoshop Files
+*.psd
