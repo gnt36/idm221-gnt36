@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>idm221-gnt36</title>
+</head>
+<body>
+    <h1>Lou Tranchitella, <br>Digital Artist.</br></h1>
+    <img alt="placeholder image" src="media/img-placeholder.png" height="350" width="556" loading="lazy">
+    <h2>"favorite quote of his"</h2>
+    <p>'- Author'</p>
+    <img alt="placeholder image" src="media/img-placeholder.png" height="350" width="556" loading="lazy">
+    <!--This is basically the main page. 
+        It is very simple because the multipage aspect will be used to showcase the other work, about page, contact page, etc.-->
+</body>
+</html>
