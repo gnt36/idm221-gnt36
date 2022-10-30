@@ -1,5 +1,89 @@
-body {background-color: #D4D4D4;}
+/*Color*/
+
+/* body {background-color: #D4D4D4;}
 h1 {color: #006882;}
 p {color: #131313;}
 nav {background-color: #CF690A;}
-main.quote {color: #131313}
+main.quote {color: #131313} */
+
+body {background-color: #D4D4D4;}
+
+/*Typography*/
+
+@font-face {
+    font-family: 'bubblegum_sansregular';
+    src: url('fonts/bubblegumsans-regular-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Questrial_Regular';
+    src: url('fonts/Questrial-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AltoneTrial_Bold';
+    src: url('fonts/AltoneTrial-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+html {
+    --color-dark: #131313;
+    --color-light: #D4D4D4;
+    --color-accent: #006882;
+    --color-nav: #CF690A; 
+    --font--serif: 'bubblegum_sansregular', 'Times New Roman', Times, serif;
+    --font--sans-serif: 'AltoneTrial_Regular', Arial, sans-serif;
+    --font--sans-serif-bold: 'AltoneTrial_Bold', 'Arial Bold', sans-serif;
+}
+
+body nav {
+    background-color: #CF690A;
+    color: #131313;
+    font-style: var(--font--sans-serif);
+    font-weight: 400;
+    font-family: 'AltoneTrial_Regular';
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+main div h1 {
+    color: #131313;
+    font-style: var(--font--sans-serif-bold);
+    font-weight: 700;
+    font-family: 'AltoneTrial_Bold';
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+main div h2, h3, h4, h5, h6 {
+    color: #131313;
+    font-style: var(--font--sans-serif);
+    font-weight: 400;
+    font-family: 'Questrial_Regular';
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+main div p {
+    color: #131313;
+    font-style: var(--font--sans-serif);
+    font-weight: 400;
+    font-family: 'Questrial_Regular';
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+main div h1.special {
+    color: #006882;
+    font-style: var(--font--serif);
+    font-weight: 400;
+    font-family: 'bubblegum_sansregular';
+    line-height: normal;
+    letter-spacing: normal; 
+}
+
