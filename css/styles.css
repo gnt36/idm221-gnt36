@@ -74,7 +74,7 @@ main div p {
     font-style: var(--font--sans-serif);
     font-weight: 400;
     font-family: 'Questrial_Regular';
-    line-height: normal;
+    line-height: 1.6;
     letter-spacing: normal;
 }
 
