@@ -1,10 +1,4 @@
-* {
-    box-sizing: border-box;
-  }
-
-body {background-color: #D4D4D4;}
-
-/*Typography*/
+* {box-sizing: border-box;}
 
 @font-face {
     font-family: 'bubblegum_sansregular';
@@ -33,55 +27,37 @@ html {
     --color-accent: #006882;
     --color-nav: #CF690A; 
     --font--serif: 'bubblegum_sansregular', 'Times New Roman', Times, serif;
-    --font--sans-serif: 'AltoneTrial_Regular', Arial, sans-serif;
+    --font--sans-serif: 'Questrial_Regular', Arial, sans-serif;
     --font--sans-serif-bold: 'AltoneTrial_Bold', 'Arial Bold', sans-serif;
 }
 
-
+body {
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    font-family: var(--font--sans-serif);
+}
 
 body nav {
-    background-color: #CF690A;
-    color: #131313;
-    font-style: var(--font--sans-serif);
-    font-weight: 400;
-    font-family: 'Questrial_Regular';
-    line-height: normal;
-    letter-spacing: normal;
+    background-color: var(--color-nav);
 }
 
 main div h1 {
-    color: #131313;
-    font-style: var(--font--sans-serif-bold);
     font-weight: 700;
     font-family: 'AltoneTrial_Bold';
-    line-height: normal;
-    letter-spacing: normal;
 }
 
-main div h2, h3, h4, h5, h6 {
-    color: #131313;
-    font-style: var(--font--sans-serif);
-    font-weight: 400;
+main div h2, div h3, div h4, div h5, div h6 {
     font-family: 'Questrial_Regular';
-    line-height: normal;
-    letter-spacing: normal;
 }
 
 main div p {
-    color: #131313;
-    font-style: var(--font--sans-serif);
-    font-weight: 400;
     font-family: 'Questrial_Regular';
     line-height: 1.6;
-    letter-spacing: normal;
 }
 
 main div h1.special {
-    color: #006882;
-    font-style: var(--font--serif);
-    font-weight: 400;
+    color: var(--color-accent);
     font-family: 'bubblegum_sansregular';
-    line-height: normal;
-    letter-spacing: normal; 
+    line-height: 1.3;
 }
 
