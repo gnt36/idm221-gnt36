@@ -52,6 +52,7 @@ main div h2, div h3, div h4, div h5, div h6 {
 
 main div p {
     font-family: 'Questrial_Regular';
+    font-size: 1.25rem;
     line-height: 1.6;
 }
 
@@ -61,3 +62,6 @@ main div h1.special {
     line-height: 1.3;
 }
 
+/* figcaption {
+    text-align: center;
+} */
