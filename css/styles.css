@@ -46,8 +46,8 @@ body nav {
 }
 
 main div h1 {
-    font-weight: 700;
-    font-family: 'AltoneTrial_Bold';
+    color: var(--color-dark);
+    font-family: 'bubblegum_sansregular';
 }
 
 main div h2, div h3, div h4, div h5, div h6 {
@@ -77,7 +77,7 @@ main div.about p {
     padding: 0 1em;
 }
 
-main div.about p br {
+main div.about p + br {
     text-indent: 45px;
 }
 
