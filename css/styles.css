@@ -1,5 +1,7 @@
 * {box-sizing: border-box;}
 
+/* Declaring Fonts*/
+
 @font-face {
     font-family: 'bubblegum_sansregular';
     src: url('fonts/bubblegumsans-regular-webfont.woff2') format('woff2');
@@ -20,6 +22,8 @@
     font-weight: bold;
     font-style: normal;
 }
+
+/* Colors & Typography */
 
 html {
     --color-dark: #131313;
@@ -61,6 +65,23 @@ main div h1.special {
     font-family: 'bubblegum_sansregular';
     line-height: 1.3;
 }
+
+/* Box Model (Borders, Margins, Padding) */
+
+main {
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+main div.about p {
+    padding: 0 1em;
+}
+
+main div.about p br {
+    text-indent: 45px;
+}
+
+
 
 /* figcaption {
     text-align: center;
