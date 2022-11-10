@@ -102,7 +102,14 @@ main div h1.special {
 }
 
 .images {
-    max-width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
 }
 
 footer p {
