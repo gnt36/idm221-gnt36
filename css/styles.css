@@ -62,6 +62,11 @@ body nav ul li a {
     text-decoration: none;
 }
 
+body nav ul li a:visited {
+    text-decoration: none;
+    color:#D4D4D4;
+}
+
 main div h1 {
     color: var(--color-dark);
     font-family: 'bubblegum_sansregular';
@@ -101,16 +106,6 @@ img {
     height: auto;
 }
 
-main div figure.left {
-    display: flex;
-    justify-content: flex-start;
-}
-
-main div figure.right {
-    display: flex;
-    justify-content: flex-end;
-}
-
 .paragraph {
     text-align: center;
     text-indent: 45px;
@@ -123,13 +118,25 @@ main div figure.right {
     justify-content: center;
 }
 
+.left {
+    display: flex;
+    align-items: left;
+
+}
+
+.right {
+    display: flex;
+    align-items: right;
+
+}
+
 figcaption {
     text-align: center;
 }
 
 footer p {
     background-color: var(--color-dark);
-    color: var(--color-light);
+    color: var(--color-nav);
     font-size: 1.25rem;
     height: 30px;
     margin: 20px 0 0;
@@ -143,4 +150,8 @@ footer p {
 
 footer p a {
     text-decoration: none;
+}
+
+footer p a:visited {
+    color: var(--color-light);
 }
