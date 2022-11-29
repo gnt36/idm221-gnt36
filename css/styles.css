@@ -43,7 +43,7 @@ body {
 
 body nav {
     background-color: var(--color-nav);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     height: 30px;
 }
 
@@ -63,8 +63,7 @@ body nav ul li a {
 }
 
 body nav ul li a:visited {
-    text-decoration: none;
-    color:#D4D4D4;
+    color:var(--color-light);
 }
 
 main div h1 {
@@ -118,33 +117,45 @@ img {
     justify-content: center;
 }
 
-.left {
-    display: flex;
-    align-items: left;
-
-}
-
-.right {
-    display: flex;
-    align-items: right;
-
-}
-
 figcaption {
+    font-family: var(--font--sans-serif-bold);
+    font-size: 1.2rem;
+    padding-top: 10px;
     text-align: center;
+
+}
+
+button {
+    background-color: var(--color-accent);
+    font-family: var(--font--sans-serif);
+    margin-top: 10px;
+    padding: 8px 8px;
+
+    display: flex;
+    align-items: center;
+}
+
+button a {
+    color: var(--color-light);
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+button a:visited {
+    color: var(--color-light);
 }
 
 footer p {
     background-color: var(--color-dark);
     color: var(--color-nav);
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     height: 30px;
     margin: 20px 0 0;
     padding: 0;
 
     display: flex;
     align-items: center;
-    gap: 35px;
+    gap: 25px;
     justify-content: center;
 }
 
