@@ -40,6 +40,7 @@ body {
     background-color: var(--color-dark);
     color: var(--color-lighter);
     font-family: var(--font--sans-serif);
+    margin: 0 0;
 }
 
 body nav {
