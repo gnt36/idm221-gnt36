@@ -27,23 +27,23 @@
 
 html {
     --color-dark: #131313;
-    --color-light: #565859;
-    --color-lighter: #D4D4D4;
+    --color-medium: #565859;
+    --color-light: #D4D4D4;
     --color-accent: #009FC7;
-    --color-nav: #CF690A; 
+    --color-orange: #CF690A; 
     --font--serif: 'bubblegum_sansregular', 'Times New Roman', Times, serif;
     --font--sans-serif: 'Questrial_Regular', Arial, sans-serif;
     --font--sans-serif-bold: 'AltoneTrial_Bold', 'Arial Bold', sans-serif;
 }
 
 body {
-    background-color: var(--color-light);
+    background-color: var(--color-dark);
     color: var(--color-lighter);
     font-family: var(--font--sans-serif);
 }
 
 body nav {
-    background-color: var(--color-nav);
+    background-color: var(--color-medium);
     font-size: 1.5rem;
     height: 30px;
 }
@@ -60,7 +60,7 @@ body nav ul {
 }
 
 body nav ul li a {
-    color: var(--color-lighter);
+    color: var(--color-light);
     text-decoration: none;
 }
 
@@ -80,20 +80,23 @@ main {
 }
 
 main div h1 {
-    color: var(--color-dark);
+    color: var(--color-orange);
     font-family: var(--font--serif);
+    letter-spacing: .75px;
 
     display: flex;
     justify-content: center;
 }
 
 main div h2, div h3, div h4, div h5, div h6 {
+    color: var(--color-light);
     font-family: var(--font--sans-serif);
     display: flex;
     justify-content: center;
 }
 
 main div.paragraph {
+    color: var(--color-light);
     font-family: var(--font--sans-serif);
     font-size: 1.3rem;
     line-height: 1.6;
@@ -105,19 +108,18 @@ main div.paragraph {
 }
 
 main div h1.special {
-    color: var(--color-accent);
-    font-family: var(--font--serif);
     line-height: 1.3;
-    text-shadow: 0 3px var(--color-dark);
 }
 
 main div.info {
+    color: var(--color-light);
     font-family: var(--font--sans-serif);
     font-size: 1.25rem;
     line-height: 1.6;
 }
 
 main div.quote {
+    color: var(--color-light);
     line-height: .25rem;
 
     display: flex;
@@ -143,6 +145,7 @@ img {
 }
 
 figcaption {
+    color: var(--color-light);
     font-family: var(--font--sans-serif-bold);
     font-size: 1.2rem;
     padding-top: 10px;
@@ -177,7 +180,7 @@ footer {
 }
 
 footer p {
-    background-color: var(--color-dark);
+    background-color: var(--color-medium);
     font-family: var(--font--sans-serif);
     font-size: 1.5rem;
     height: 30px;
@@ -192,7 +195,7 @@ footer p {
 
 footer p a {
     text-decoration: none;
-    color: var(--color-lighter);
+    color: var(--color-light);
 }
 
 /* footer p a:visited {
