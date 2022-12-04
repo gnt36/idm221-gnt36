@@ -154,20 +154,17 @@ figcaption {
 
 }
 
-button {
+div a.button {
     background-color: var(--color-accent);
+    color: var(--color-dark);
     font-family: var(--font--sans-serif);
+    font-size: 1rem;
     margin: 15px auto 20px;
     padding: 8px 8px;
+    text-decoration: none;
 
     display: flex;
     align-items: center;
-}
-
-button a {
-    color: var(--color-dark);
-    font-size: 1rem;
-    text-decoration: none;
 }
 
 /* button a:visited {
