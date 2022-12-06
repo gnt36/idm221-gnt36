@@ -149,13 +149,32 @@ figcaption {
     color: var(--color-light);
     font-family: var(--font--sans-serif-bold);
     font-size: 1.2rem;
-    padding-top: 10px;
+    padding-top: 20px;
     text-align: center;
+}
 
+.fantasyhaven {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 div a.button {
     background-color: var(--color-accent);
+    color: var(--color-dark);
+    font-family: var(--font--sans-serif);
+    font-size: 1rem;
+    margin: 15px auto 20px;
+    padding: 8px 8px;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;
+}
+
+div button.contact {
+    background-color: var(--color-accent);
+    border: none;
     color: var(--color-dark);
     font-family: var(--font--sans-serif);
     font-size: 1rem;
